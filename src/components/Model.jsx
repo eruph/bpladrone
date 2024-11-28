@@ -11,9 +11,9 @@ const Model = ({url}) => {
     });
     return (
         <>
-            <mesh ref={ref} rotation={[Math.PI/2,0,0]}>
+            <mesh ref={ref} rotation={[Math.PI * 3 /2 , 0,0 ]}>
                 <primitive object={stl} />
-                <meshStandardMaterial color={"white"}/>
+                <meshStandardMaterial/>
             </mesh>
         </>
     )
